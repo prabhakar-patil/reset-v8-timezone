@@ -1,0 +1,29 @@
+{
+  "name": "reset-v8-timezone",
+  "version": "1.0.0",
+  "description": "Reset/refresh v8 engine's timezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabhakar-patil/reset-v8-timezone.git"
+  },
+  "keywords": [
+    "timezone",
+    "linux"
+  ],
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.2"
+  },
+  "author": "Prabhakar Patil <prpatil12@gmail.com>",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/prabhakar-patil/reset-v8-timezone/issues"
+  },
+  "homepage": "https://github.com/prabhakar-patil/reset-v8-timezone#readme"
+}
